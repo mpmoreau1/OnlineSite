@@ -1,0 +1,58 @@
+/* Reset default margins and paddings */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define the layout for header, navigation, breadcrumbs, main, and footer */
+header, nav, .breadcrumbs, main, footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    background-color: #f2f2f2;
+}
+
+nav {
+    background-color: #e0e0e0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.breadcrumbs {
+    background-color: #d4d4d4;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
